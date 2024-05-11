@@ -5,8 +5,8 @@ tags: Life
 ---
 
 # Apple Developer ROADSHOW
-<img src="https://github.com/joho2022/joho2022.github.io/assets/104732020/78b846d1-8b85-4625-bd17-51f1f5392ac7" alt="KakaoTalk Photo" width="450">
-<img src="https://github.com/joho2022/joho2022.github.io/assets/104732020/593257cc-bb8c-4cca-9e5e-2ffdf9b019f4" alt="KakaoTalk Photo" width="450">
+<img src="https://github.com/joho2022/joho2022.github.io/assets/104732020/78b846d1-8b85-4625-bd17-51f1f5392ac7" alt="KakaoTalk Photo" width="250">
+<img src="https://github.com/joho2022/joho2022.github.io/assets/104732020/593257cc-bb8c-4cca-9e5e-2ffdf9b019f4" alt="KakaoTalk Photo" width="250">
 
 
 인생에서 처음 설명회를 다녀왔습니다. 현재 다니고 있는 코드스쿼드에서 iOS는 저 혼자이기 때문에, 평소에 iOS 네트워킹에 대해 절실하기도 했고, 여기를 참여하면 자연스럽게 iOS개발에 흥미있거나 꿈꾸고 있는 사람을 만나서 생각을 공유하고 싶어서 직접 정보를 찾고 설명회를 다녀온 것이 처음이였습니다 
@@ -15,7 +15,7 @@ tags: Life
 
 iOS개발자를 꿈꾸고 있지만, 애플에 대해 깊게 생각을 하지 못했는데 설명회를 들으면서 지금 정의를 못내리지만 '애플스럽다'라는 생각을 가장 먼저 떠오르게 되었습니다. 설명회라고 해서 2시간 동안 정보만 가져다주는 시간으로 예상하고 있었는데,
 
-<img src="https://github.com/joho2022/joho2022.github.io/assets/104732020/dbed609e-f70e-4b01-80e9-a88b3e5b6844" alt="KakaoTalk Photo" width="450">
+<img src="https://github.com/joho2022/joho2022.github.io/assets/104732020/dbed609e-f70e-4b01-80e9-a88b3e5b6844" alt="KakaoTalk Photo" width="250">
 
 짧은 시간동안 팀을 만들어내고, 팀원들과 문제가 주어질 때 문제에 대한 질문을 만들어내는 과정이 인상깊었습니다. 사실 저는 요구사항이 주어졌을 때, 단순히 input -> output처럼 기계마냥 여러 접근으로 다가가지 않고 빨리 구현해야 겠다는 생각을 가지고 있었습니다. 
 
