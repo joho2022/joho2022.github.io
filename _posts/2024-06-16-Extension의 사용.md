@@ -4,7 +4,7 @@ title: "Extension은 어떻게 사용하나?"
 tags: TIL
 ---
 
-# Extension은 어떻게 사용되나?
+# Extension은 어떻게 사용되나??
 
 
 # 1. 새로운 메서드, 프로퍼티, 생성자 추가
