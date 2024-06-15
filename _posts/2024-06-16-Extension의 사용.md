@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Extension은 어떻게 사용하나?"
+title: "Extension은 어떻게 사용하나"
 tags: TIL
 ---
 
