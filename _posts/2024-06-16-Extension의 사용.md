@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Extension은 어떻게 사용하나?"
-tags: Life
+tags: TIL
 ---
 
 # Extension은 어떻게 사용되나?
