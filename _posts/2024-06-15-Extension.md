@@ -4,8 +4,6 @@ title: "Extension"
 tags: TIL
 ---
 
-# 🤔 첫 협업에 대한 회고
-
 # Extension은 어떻게 사용되나???
 
 
