@@ -21,5 +21,10 @@ sass:
 markdown: kramdown
 kramdown:
   input: GFM
+  syntax_highlighter_opts:
+    block:
+      disable: false
+    span:
+      disable: false
 #  syntax_highlighter_opts:
 #    disable : true
