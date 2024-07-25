@@ -99,6 +99,26 @@
     {% endif %}
 	<script src="/assets/js/001.js"></script>
 	<script src="/assets/js/002.js"></script>
+	<script>
+        // 모든 <code> 태그를 선택
+        const codeBlocks = document.querySelectorAll('code');
+
+        codeBlocks.forEach(code => {
+            // 자식 요소들의 텍스트 내용을 결합
+            let textContent = '';
+            code.childNodes.forEach(node => {
+                if (node.nodeType === Node.ELEMENT_NODE) {
+                    textContent += node.innerText;
+                } else if (node.nodeType === Node.TEXT_NODE) {
+                    textContent += node.textContent;
+                }
+            });
+
+            // 모든 자식 요소를 제거하고 텍스트만 추가
+            code.innerHTML = '';
+            code.textContent = textContent;
+        });
+    </script>
 	<div class="footer">
 		<p>Created by <a href="http://github.com/h01000110" target="_blank">h01000110 (hi)</a> | Code licensed under <a href="https://github.com/h01000110/h01000110.github.io/blob/master/LICENSE" target="_blank">MIT License</a></p>
 	</div>
