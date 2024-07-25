@@ -18,6 +18,10 @@ hue-6-2: #c18401
 
 */
 
+.no-style {
+  all: unset;
+}
+
 .hljs {
   display: block;
   overflow-x: auto;
