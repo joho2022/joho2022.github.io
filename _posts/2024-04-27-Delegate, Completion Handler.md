@@ -15,7 +15,7 @@ class PhotoManager {
     weak var delegate: PhotoManagerDelegate?
     
     func notifyChange() {
-        // 라이브러리 변경사항이 있을 때 호출
+        /// 라이브러리 변경사항이 있을 때 호출
         delegate?.photoLibraryDidChange()
     }
 }
@@ -44,7 +44,7 @@ class PhotoManager {
     var onChange: (() -> Void)?
 
     func notifyChange() {
-        // 라이브러리 변경사항이 있을 때 호출
+        /// 라이브러리 변경사항이 있을 때 호출
         onChange?()
     }
 }
