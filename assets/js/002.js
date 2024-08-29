@@ -2,25 +2,16 @@
 // github.com/h01000110
 
 function numbers() {
-    var fields = document.getElementsByTagName("code");
-    for (var field of fields) {
-        var select = field.innerText;
-        var select_f = select.split(/\n/);
-
-        // 마크다운과 함께 추가 라인 문제를 수정
-        if (select_f[select_f.length - 1] === "") {
-            select_f.splice(-1, 1);
-        }
-
-        var pre = document.createElement("pre");
-        field.innerHTML = "";
-        field.appendChild(pre);
-
-        for (var line of select_f) {
-            pre.appendChild(document.createTextNode(line + '\n'));
-        }
-    }
+    var fields = document.querySelectorAll('pre code'); // `<code>` 태그를 직접 대상으로 선택
+    fields.forEach(field => {
+        let codeText = field.innerText;
+        field.innerHTML = ''; // 기존 내용을 비우고
+        let lines = codeText.split(/\n/).filter(line => line.trim() !== ''); // 빈 줄 제거
+        lines.forEach(line => {
+            let textNode = document.createTextNode(line + '\n'); // 텍스트 노드 생성
+            field.appendChild(textNode);
+        });
+    });
 }
 
-
-window.onload = numbers();
+window.onload = numbers;
