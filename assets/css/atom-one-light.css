@@ -3,56 +3,35 @@
    Simplified for basic markdown code block styling */
 
 .hljs {
-  display: block;
-  overflow-x: auto;
-  background: #f8f8f8; /* 기본 배경색 설정 */
-  color: #333; /* 기본 텍스트 색상 설정 */
-  padding: 0.5em; /* 적절한 패딩 설정 */
-  border: 1px solid #ccc; /* 테두리 추가 */
-  font-family: monospace; /* 모노스페이스 폰트 적용 */
-  font-size: 1em; /* 기본 폰트 크기 */
+  background: #f8f8f8;  /* 더 밝은 회색조로 코드 블록을 강조 */
+  color: #333;          /* 어두운 글자색 */
+  padding: 0.5em;       /* 충분한 패딩 */
+  border: 1px solid #ccc;  /* 미묘한 테두리 추가 */
+  margin: 1em 0;        /* 위아래 마진 추가 */
+  font-family: 'Courier New', Courier, monospace;  /* 모노스페이스 폰트 적용 */
+  overflow-x: auto;     /* 가로 스크롤만 허용 */
 }
 
-/* 모든 특정 요소 스타일링 제거 */
+/* 기타 요소 스타일 초기화 */
 .hljs-comment,
 .hljs-quote,
-.hljs-doctag,
-.hljs-keyword,
-.hljs-formula,
-.hljs-section,
-.hljs-name,
-.hljs-selector-tag,
-.hljs-deletion,
-.hljs-subst,
-.hljs-literal,
-.hljs-string,
-.hljs-regexp,
-.hljs-addition,
-.hljs-attribute,
-.hljs-meta-string,
-.hljs-built_in,
-.hljs-class .hljs-title,
-.hljs-attr,
 .hljs-variable,
 .hljs-template-variable,
-.hljs-type,
-.hljs-selector-class,
-.hljs-selector-attr,
-.hljs-selector-pseudo,
-.hljs-number,
-.hljs-symbol,
-.hljs-bullet,
-.hljs-link,
-.hljs-meta,
+.hljs-tag,
+.hljs-name,
 .hljs-selector-id,
-.hljs-title {
-  color: inherit; /* 모든 특정 요소의 색상을 상위 요소에서 상속받도록 변경 */
-}
-
-.hljs-emphasis,
-.hljs-strong,
+.hljs-selector-class,
+.hljs-regexp,
+.hljs-deletion,
+.hljs-number,
+.hljs-built_in,
+.hljs-builtin-name,
+.hljs-literal,
+.hljs-type,
+.hljs-params,
+.hljs-meta,
 .hljs-link {
-  font-style: inherit; /* 폰트 스타일 상속 변경 */
-  font-weight: inherit; /* 폰트 무게 상속 변경 */
-  text-decoration: inherit; /* 텍스트 꾸밈 상속 변경 */
+  color: inherit;  /* 모든 색상을 .hljs에서 상속 받음 */
+  font-style: normal;  /* 기타 스타일 초기화 */
+  font-weight: normal;  /* 기타 스타일 초기화 */
 }
