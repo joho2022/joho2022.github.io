@@ -1,69 +1,34 @@
-/*
-
-Atom One Light by Daniel Gamage
-Original One Light Syntax theme from https://github.com/atom/one-light-syntax
-
-base:    #fafafa
-mono-1:  #383a42
-mono-2:  #686b77
-mono-3:  #a0a1a7
-hue-1:   #0184bb
-hue-2:   #4078f2
-hue-3:   #a626a4
-hue-4:   #50a14f
-hue-5:   #e45649
-hue-5-2: #c91243
-hue-6:   #986801
-hue-6-2: #c18401
-
-
-
+/* Atom One Light by Daniel Gamage
+   Original One Light Syntax theme from https://github.com/atom/one-light-syntax
+   Simplified for basic markdown code block styling */
 
 .hljs {
   display: block;
   overflow-x: auto;
-  padding: 0.5em;
-  color: #383a42;
-  background: #fafafa;
+  background: none; /* 배경색 제거 */
+  color: inherit; /* 글자색을 상위 요소에서 상속받도록 변경 */
+  padding: inherit; /* 패딩을 상위 요소에서 상속받도록 변경 */
 }
 
+/* 모든 특정 요소 스타일링 제거 */
 .hljs-comment,
-.hljs-quote {
-  color: #a0a1a7;
-  font-style: italic;
-}
-
+.hljs-quote,
 .hljs-doctag,
 .hljs-keyword,
-.hljs-formula {
-  color: #a626a4;
-}
-
+.hljs-formula,
 .hljs-section,
 .hljs-name,
 .hljs-selector-tag,
 .hljs-deletion,
-.hljs-subst {
-  color: #e45649;
-}
-
-.hljs-literal {
-  color: #0184bb;
-}
-
+.hljs-subst,
+.hljs-literal,
 .hljs-string,
 .hljs-regexp,
 .hljs-addition,
 .hljs-attribute,
-.hljs-meta-string {
-  color: #50a14f;
-}
-
+.hljs-meta-string,
 .hljs-built_in,
-.hljs-class .hljs-title {
-  color: #c18401;
-}
-
+.hljs-class .hljs-title,
 .hljs-attr,
 .hljs-variable,
 .hljs-template-variable,
@@ -71,29 +36,20 @@ hue-6-2: #c18401
 .hljs-selector-class,
 .hljs-selector-attr,
 .hljs-selector-pseudo,
-.hljs-number {
-  color: #986801;
-}
-
+.hljs-number,
 .hljs-symbol,
 .hljs-bullet,
 .hljs-link,
 .hljs-meta,
 .hljs-selector-id,
 .hljs-title {
-  color: #4078f2;
+  color: inherit; /* 모든 특정 요소의 색상을 상위 요소에서 상속받도록 변경 */
 }
 
-.hljs-emphasis {
-  font-style: italic;
-}
-
-.hljs-strong {
-  font-weight: bold;
-}
-
+.hljs-emphasis,
+.hljs-strong,
 .hljs-link {
-  text-decoration: underline;
+  font-style: inherit; /* 폰트 스타일 상속 변경 */
+  font-weight: inherit; /* 폰트 무게 상속 변경 */
+  text-decoration: inherit; /* 텍스트 꾸밈 상속 변경 */
 }
-
-*/
